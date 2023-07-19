@@ -12,6 +12,7 @@ const CustomerSurvey = () => {
   const navigate = useNavigate();
   useEffect(() => {
     initTE({ Modal, Ripple });
+    // eslint-disable-next-line
   }, []);
 
   const [qstate, setQstate] = useState(0);
@@ -55,6 +56,7 @@ const CustomerSurvey = () => {
 
   useEffect(() => {
     intialCheck();
+    // eslint-disable-next-line
   }, [])
 
 
